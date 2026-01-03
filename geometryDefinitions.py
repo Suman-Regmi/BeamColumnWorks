@@ -7,7 +7,8 @@ beamPlasticHingeLength = DBeam/2  #originally divide by 2
 # beamPlasticHingeLength = DBeam #originally divide by 2
 columnPlasticHingeLength = DCol/2 #originally divide by 2
 
-
+ops.wipe()
+ops.model('basic', '-ndm', 2, '-ndf', 3)
 
 ops.node(1,0,0)     #center node of the subassembles
 
