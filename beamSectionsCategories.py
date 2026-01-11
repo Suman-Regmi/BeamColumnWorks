@@ -25,7 +25,12 @@ beamSections = {
 # number of bars and their layout to be specified
 },
 "sectionDimensions":{"width": 230*mm,
-                      "depth": 325*mm}
+                      "depth": 325*mm},
+"cover":{"cover": 40*mm}, #to be set
+"barNumbers":[3,2,3],
+"barPlacementLocation":[(230/2-40-6-6)*mm, (0)*mm, (-230/2+40+6+6)*mm],
+"barDiameter":[[12*mm]*3,[12*mm]*2,[12*mm]*3],
+"coreDimensions":{"width": 220*mm, "depth": 220*mm}, #to be set
 },
 
 
@@ -53,7 +58,12 @@ beamSections = {
                                          }
 },
 "sectionDimensions":{"width": 230*mm,
-                      "depth": 355*mm}
+                      "depth": 355*mm},
+"cover":{"cover": 40*mm}, #to be set
+"barNumbers":[3,2,3],
+"barPlacementLocation":[(230/2-40-6-6)*mm, (0)*mm, (-230/2+40+6+6)*mm],
+"barDiameter":[[12*mm]*3,[12*mm]*2,[12*mm]*3],
+"coreDimensions":{"width": 220*mm, "depth": 220*mm}, #to be set
 },
 "NBC_205_2024": {
         "material":{"Confined_Concrete":{"MaterialTag":4,
@@ -78,5 +88,10 @@ beamSections = {
 }
 },
 "sectionDimensions":{"width": 250*mm,
-                      "depth": 380*mm}
+                      "depth": 380*mm},
+"cover":{"cover": 40*mm},  #to be set
+"barNumbers":[3,2,3],
+"barPlacementLocation":[(230/2-40-6-6)*mm, (0)*mm, (-230/2+40+6+6)*mm],
+"barDiameter":[[12*mm]*3,[12*mm]*2,[12*mm]*3],
+"coreDimensions":{"width": 220*mm, "depth": 220*mm}, #to be set
 }

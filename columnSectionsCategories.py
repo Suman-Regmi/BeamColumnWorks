@@ -26,9 +26,9 @@ columnSections = {
 "barNumbers":[3,2,3],
 "barPlacementLocation":[(230/2-40-6-6)*mm, (0)*mm, (-230/2+40+6+6)*mm],
 "barDiameter":[[12*mm]*3,[12*mm]*2,[12*mm]*3],
+"coreDimensions":{"width": (230/2-40-6-6)*mm, "depth": (-230/2+40+6+6)*mm},
 "sectionDimensions":{"width": 230*mm,
                       "depth": 230*mm},
-"coreDimensions":{"width": 220*mm, "depth": 220*mm}
 },
 
 
